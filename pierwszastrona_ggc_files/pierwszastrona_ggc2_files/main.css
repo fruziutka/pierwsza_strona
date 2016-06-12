@@ -1,0 +1,224 @@
+body {
+  font-family: 'Helvetica';
+  font-size: 13px;
+  color: #000000;
+  background-color: #fff;
+}
+h2 {
+  color: #000000;
+
+}
+.nazwa {
+  color: #000000;
+}
+.main {
+  margin: 0 0px;
+}
+header {
+  margin: 0 0px;
+  font-family: 'Helvetica';
+  font-size: 20px;
+  color: #000000;
+  background-color: #fff;
+}
+header nav ul li {
+  display: inline-block;
+
+}
+.nav {
+  text-align: center;
+}
+.nav li {
+  padding: 0 10px 0 10px;
+}
+.nav li a {
+  color: #000;
+  text-decoration: none;
+}
+.landing {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.landing__bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/deski.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.landing__title {
+  margin-top: 0;
+  margin-bottom: 200px;
+  padding-top: 204px;
+  color: #fff;
+  font-family: "helvetica", cursive;
+  font-size: 90px;
+  text-align: center;
+}
+.landing__title span{
+  color: rgba(255, 255, 255, 0.7);
+}
+.landing__button {
+  display: inline-block;
+  padding: 16px 48px;
+  border: 2px solid #969696;
+  border-radius: 6px;
+  background-color: #5A5A5A;
+  color: #f0f0f0;
+  font-family: "helvetica", sans;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 6px;
+  cursor: pointer;
+}
+
+.landing__button:hover {
+  background-color: transparent;
+  color: #f0f0f0;
+}
+.about {
+  / * tło */
+  background-color: #f8f8f8;
+}
+
+.about__content {
+  / * szerokość - responsive! */
+  max-width: 1024px;
+  / * wyśrodkowanie */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.about__title {
+  margin-top: 0;
+  margin-bottom: 35px;
+  padding-top: 64px;
+  color: #ffffff;
+  font-family: "Satisfy", cursive;
+  font-size: 72px;
+  text-align: center;
+  cursor: default;
+}
+.about__desciption {
+  color: #000;
+  font-family: "helvetica";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+}
+.about__desciption:first-letter {
+  font-size: 200%;
+}
+
+.about__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  padding-top: 24px;
+  color: #fff;
+  font-family: "helvetica", cursive;
+  font-size: 52px;
+  text-align: center;
+  cursor: default;
+}
+
+.oferta__column {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  text-align: center;
+}
+.skill__icon {
+  font-size: 50px;
+}
+.gallery__title{
+  color: #000;
+  font-family: "helvetica";
+  font-size: 52px;
+  text-align: center;
+
+}
+
+.gallery__content {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1050px;
+}
+
+.gallery__column {
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+}
+.box-container {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.box {
+  width: 360px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transform: translate3d(-40px, 0, 0);
+}
+
+.box:hover {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: translate3d(0, 0, 0);
+}
+
+.box--1 {
+  background-image: url("../images/abbey-1160492_1280.jpg");
+  height: 300px;
+}
+
+.box--2 {
+  background-image: url("../images/deski.jpeg");
+  height: 200px;
+}
+.box--3 {
+  background-image: url("../images/gecko-1373165_1280.jpg");
+height: 250px;
+}
+.box--4 {
+  background-image: url("../images/onions-1397037_1280.jpg");
+  height: 370px;
+}
+.box--5{
+  background-image: url("../images/fountain-pens-1393979_1280.jpg");
+  height: 400px;
+}
+.box--6{
+  background-image: url("../images/euro-1353420_1280.jpg");
+  height:400px;
+
+}
+.box--7{
+  background-image: url("../images/cat-1333926_1280.jpg");
+  height:280px;
+
+}
+.box--8{
+  background-image: url("../images/balloon-1373161_1280.jpg");
+  height:350px;
+}
+.box--9{
+    background-image: url("../images/autumn-leave-1415541_1280.jpg");
+    height:300px;
+}
